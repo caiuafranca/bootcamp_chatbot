@@ -1,6 +1,7 @@
 Bootcamp  Chatbot
 
 - Tecnologias
+    - Logica de Programação
     - Python
     - Whatsapp
     - DialogFlow
