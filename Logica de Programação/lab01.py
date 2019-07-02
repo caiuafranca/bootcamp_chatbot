@@ -6,6 +6,13 @@ Autor(a)    : Caiuá França
 Data atual  : 02/07/2019
 '''
 opcao = 0
+
+def fib(n):
+    a, b = 0, 1
+    while (b < n):
+        a, b = b, a + b
+        print(a)
+
 while opcao != 6:
     print("Ola me Nadja, serei sua assistente virtual neste atendimento")
     print("temos algumas opções para interegir coim você, selecione uma")
@@ -18,7 +25,8 @@ while opcao != 6:
     opcao = int(input(print("Digite sua opção:")))
 
     if(opcao == 1):
-        print("Digitou a opção 1")
+        qtd = int(input("Numero que vc deseja digitar"))
+        fib(qtd)
     elif opcao == 2:
         print("Digitou a opção 2")
     elif opcao == 3:
@@ -30,4 +38,3 @@ while opcao != 6:
     else:
         print("Não Compreendi, poderia tentar novamente.")
     print("Obrigado por usar nosso atendimento!")
-    
