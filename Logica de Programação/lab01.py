@@ -6,7 +6,7 @@ Autor(a)    : Caiuá França
 Data atual  : 02/07/2019
 '''
 opcao = 0
-
+piada = ['1','2','3']
 def fib(n):
     a, b = 0, 1
     while (b < n):
@@ -28,7 +28,7 @@ while opcao != 6:
         qtd = int(input("Numero que vc deseja digitar"))
         fib(qtd)
     elif opcao == 2:
-        print("Digitou a opção 2")
+        print(piada[range(piada.__len__)])
     elif opcao == 3:
         print("Digitou a opção 3")
     elif opcao == 4:
